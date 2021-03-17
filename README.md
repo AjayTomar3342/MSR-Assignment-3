@@ -215,3 +215,6 @@ The final results are printed as part of the console
 
 
 ## Experiment:
+
+### Threat:
+Original researchers analysed the sentiments of Commit messages of mostly Object-Oriented Languages (Java Based API’s/Servlet/Tools). This was done by categorizing the commit messages into four categories out of which the most important one (Fix Inducing Changes Category - Commit Messages to lead to broken code after Commit is done) was categorized if it contains terms such as “Fix”,” Bug”,” Patch”. This technique according to us makes the process and the results relatable to only a fraction of types of Programming Languages. The above-mentioned understanding comes after checking manually the type of languages of the repositories the original researchers used for testing their research paper research questions, it was found they were in majority Java-Based API's/Servlets/Tools. 
