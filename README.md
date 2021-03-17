@@ -257,4 +257,18 @@ Implementation of the project consisted of two main ideas primarily:
 
 a.) Deciding Language Specific and General terms based on Language Type.
 
-b.) Adding the terms in the rudimentary if-else clause present on 243 of the msr_assignment_3.py file. 
+b.) Adding the terms in the rudimentary if-else clause present on line no. 85 of the msr_assignment_3.py file. 
+
+The first step took majority(90%) of the time, and is definitely the essential step of this process. 
+
+Collectively, both of these add up to categorize more desired commits into FC Category and thus addressing our threat to external validity. 
+
+### Results:
+
+Results are also present in Data/Results.xlsx. Conclusions are divided into two categories below:
+
+#### Positive Conclusions:
+
+1.) 
+
+#### Negative Conclusions: 
