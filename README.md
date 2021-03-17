@@ -244,3 +244,9 @@ For these languages, we will add some specific terms related to these languages 
 **b.) General Terms:** These terms are supposed to add desired commits into FC's for all type of languages(Language Types mentioned above). Some general terms used were **Tweak**, **Correct**, **Error** and **Fail**. 
 
 Please note that the categorization of FC's using Language Specific Terms wasn't exclusive to their respective Language Repository only. To explain, all terms were used for all languages for categorization. Ideally, there should be specific categorization for some commits respective to some languages but, as per the takeaways from Consulation Session and Assignment requirements, this assignment didn't require a full-fledged resolution of a validity threat. Due to this reason, the project was scaled down. 
+
+
+### Feasibility:
+
+As mentioned above, personalized coding for each different GitHub repository wasn't done in this project. It could have minimal impact as this just adds a bit more commits from Language Repositories for which the categorizing terms weren't planned. 
+Additionally, the project was scaled down to one language type with two languages so that we can **double check** our results impact while not focusing on too many language types at the same time. Ideally to cover multiple language types, it's better to have professionals working with the different type of languages while finalizing different terms for different language type. But the fulfillment of such a requirement is easier said than done. 
