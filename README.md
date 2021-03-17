@@ -1,7 +1,7 @@
 # MSR-Assignment-3
-Mining Software Repositories project to analyze Github Commits and use sentiment analysis to check whether there is correlation between negative human sentiment and Faulty Commits which may induce Fixes by Developers.
+Mining Software Repositories follow-up project to tackle external threat to MSR-Assignment-2 Project. 
 
-A reproduction as part of the MSR course at MSR course 2020/21 at UniKo, CS department, SoftLang Team 
+An external validity addressing project as part of the MSR course at MSR course 2020/21 at UniKo, CS department, SoftLang Team 
 
 Please cite the following paper if you intend to know more about the original research 
 
@@ -11,7 +11,9 @@ Please cite the following paper if you intend to know more about the original re
 > **DBLP Link:**
   https://dblp.org/rec/conf/wcre/HuqSS20.html
 
-## Requirements:
+## Baseline:
+
+### Requirements:
 
 To run this project, you will need Python3+, pip and Git installed on the system. 
 
@@ -35,12 +37,12 @@ The necessary libraries and packages are specified in the **requirements.txt** f
   Create a local directory in your machine where you want to pull the git project and clone the project by running the below command from cmd 
   (Make sure that you are in the newly created directory first!):
   
-  	```git clone https://github.com/AjayTomar3342/MSR-Assignment-2```
+  	```git clone https://github.com/AjayTomar3342/MSR-Assignment-3```
 
   * **Step 2:**
   From cmd, move into the main folder of the cloned project
   
- 	 ```cd MSR-Assignment-2```
+ 	 ```cd MSR-Assignment-3```
 
   * **Step 3:**
   Execute the below commands to meet the pre-requisites to execute the code
