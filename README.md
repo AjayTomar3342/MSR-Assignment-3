@@ -266,9 +266,9 @@ Collectively, both of these add up to categorize more desired commits into FC Ca
 ### Results:
 
 
-<img src="Data/Results_1.PNG">
+<img src="Data/Result_1.PNG">
 
-<img src="Data/Results_2.PNG">
+<img src="Data/Result_2.PNG">
 
 Results are also present in Data/Results.xlsx. Conclusions are divided into two categories below:
 
