@@ -228,4 +228,4 @@ Here, we see that the nature of the programming languages of the repositories re
 
 A snap of the list of the 13 repositories used in the paper:
 
-<img src="Data/Original_Repositories.png">
+<img src="Data/Original_Repositories.PNG">
