@@ -218,3 +218,14 @@ The final results are printed as part of the console
 
 ### Threat:
 Original researchers analysed the sentiments of Commit messages of mostly Object-Oriented Languages (Java Based API’s/Servlet/Tools). This was done by categorizing the commit messages into four categories out of which the most important one (Fix Inducing Changes Category - Commit Messages to lead to broken code after Commit is done) was categorized if it contains terms such as “Fix”,” Bug”,” Patch”. This technique according to us makes the process and the results relatable to only a fraction of types of Programming Languages. The above-mentioned understanding comes after checking manually the type of languages of the repositories the original researchers used for testing their research paper research questions, it was found they were in majority Java-Based API's/Servlets/Tools. 
+
+### Traces:
+From the paper "Is Developer Sentiment Related to Software Bugs: An Exploratory Study on GitHub Commits" - the description of the repositories:
+
+“Thirteen GitHub repositories are chosen based on popularity and inclusion in the GHTorrent dataset. The repositories are all mature with an average 9.7 years of project life and 148 releases. Furthermore, with an average of 170 contributors, the projects contain the collaboration necessary to analyse inter-developer communication. Due to being open source, the projects enforce communication via Commit messages as their teams are geographically dispersed. Extracting the Commits from the thirteen repositories yields the primary dataset. Categorizing the data according to the Commit Categorization section produces four sets of Commits.” 
+
+Here, we see that the nature of the programming languages of the repositories researched is not discussed nor prioritized. Thus, we decided to conduct the same research on repositories dealing with different programming languages.
+
+A snap of the list of the 13 repositories used in the paper:
+
+<img src="Data/Original_Repositories.png">
