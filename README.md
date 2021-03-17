@@ -65,15 +65,15 @@ The necessary libraries and packages are specified in the **requirements.txt** f
   
   ``` 
       Unix/macOS
-      python MSR_Assignment.py
+      python msr_assignment_3.py
 
       Windows
-      %run MSR_Assignment.py
+      %run msr_assignment_3.py
   ```
   
   
   **NOTE:** 
-  After each run of the code, the **Guava Repository** Folder from the Process folder has to be deleted manually as for each run, GitHub API scrapes updated data and for successfull scraping, older data has to be deleted
+  After each run of the code, the **Guava Repository**, **Zsh Repository** and **Power Shell Repository** Folder from the Process folder has to be deleted manually as for each run, GitHub API scrapes updated data and for successfull scraping, older data has to be deleted
   
   
 
@@ -109,7 +109,7 @@ Steps are:
   Select option to start the pulled project in New Window or This window as per your personal preference.
   
   * **Step 9:**
-  After this the project will be up and running and requirements.txt file will automatically install required libraries. Run the file MSR-Assignment.py from Process Folder to get the results
+  After this the project will be up and running and requirements.txt file will automatically install required libraries. Run the file msr_assignment_3.py from Process Folder to get the results
 
 This is a quick process to start the testing of GitHub project taken from the Official Jet Brains Website. We have tried this with several PC’s and are confident that this will not give any errors.
 
