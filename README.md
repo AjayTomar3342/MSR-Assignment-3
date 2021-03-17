@@ -250,3 +250,11 @@ Please note that the categorization of FC's using Language Specific Terms wasn't
 
 As mentioned above, personalized coding for each different GitHub repository wasn't done in this project. It could have minimal impact as this just adds a bit more commits from Language Repositories for which the categorizing terms weren't planned. 
 Additionally, the project was scaled down to one language type with two languages so that we can **double check** our results impact while not focusing on too many language types at the same time. Ideally to cover multiple language types, it's better to have professionals working with the different type of languages while finalizing different terms for different language type. But the fulfillment of such a requirement is easier said than done. 
+
+### Implementation:
+
+Implementation of the project consisted of two main ideas primarily:
+
+a.) Deciding Language Specific and General terms based on Language Type.
+
+b.) Adding the terms in the rudimentary if-else clause present on 243 of the msr_assignment_3.py file. 
