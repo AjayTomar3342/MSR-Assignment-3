@@ -311,4 +311,7 @@ Results are also present in Data/Results.xlsx. Conclusions are divided into two 
 
 2.) In FIC's, contrary to our hypothesis negative polarity commits have reduced drastically. Also, emotion commits are reduced too.																					
 
+### Process:
+
+There is an additional step to get results for comparison after adding new terms to the scenario. First run the program as it is as mentioned in the Baseline/Process above. Then delete all the Scraped Repositories data and **uncomment the terms present from line 86-89*** and add them into if-else clause. During first run, results without new terms will appear in console, during second run(after adding new terms), improved results will appear as mentioned above. 
 
