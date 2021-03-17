@@ -229,3 +229,17 @@ Here, we see that the nature of the programming languages of the repositories re
 A snap of the list of the 13 repositories used in the paper:
 
 <img src="Data/Original_Repositories.PNG">
+
+### Theory:
+To remove the external validity threat above, we found multiple types of programming languages (More than the ones we added categorizing terms for in our threat to validity resolution process). We found various kinds of languages and some very different from each other and Java. 
+
+Some examples are Array Languages, Assembly Languages, Command Line Interface Languages, Data-Flow Languages, Data-Oriented Languages, Functional Languages, Imperative Languages, Object-Oriented Languages, Procedural Languages. 
+
+We planned to take multiple kinds of languages but due to unavailability of many types of languages as GitHub Repository and if available, low amount of commit messages, we decided to take only One type of Language in our consideration. We took two languages(Zsh and Power Shell) from Command Line Languages Type, where the second one would be used to double check our results if we get results in positive direction. Additionally the initial language repository Julia(Used in MSR-Assignment-2), was also considered into checking overall impact of the new specialized terms we add in the expertment. 
+
+For these languages, we will add some specific terms related to these languages which will increase the count of commits in FC Category. Please note that by visual inspection, it was seen that these newly added commits should already be added beforehand with the previous terms. Two category of terms were added for Zsh, Power Shell and Julia. These were:
+
+a.) Language Specific Terms: These terms are exclusive to the specific languages/language types as these are supposed to add FC Commits for the specific language/language type. For Zsh, these terms were **Typo** and **Missing**. For Power Shell, these were **Cat** and **Typo**. For Julia, the term used was **Avoid**.
+b.) General Terms: These terms are supposed to add desired commits into FC's for all type of languages(Language Types mentioned above). Some general terms used were **Tweak**, **Correct**, **Error** and **Fail**. 
+
+Please note that the categorization of FC's using Language Specific Terms wasn't exclusive to their respective Language Repository only. To explain, all terms were used for all languages for categorization. Ideally, there should be specific categorization for some commits respective to some languages but, as per the takeaways from Consulation Session and Assignment requirements, this assignment didn't require a full-fledged resolution of a validity threat. Due to this reason, the project was scaled down. 
