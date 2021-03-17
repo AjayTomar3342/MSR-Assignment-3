@@ -211,3 +211,7 @@ The final results are printed as part of the console
 * The p-values resulting from Bonferroni corrections is mostly 1 which means that the Mean values of the comparing data is almost same. This is inevitable as there is minor difference between the sentiment values among the different categories.
 
 * The result in the research paper involves a combination of 13 huge repositories wherein we assume that the results that we got from our reproduction project is different since we considered only one medium sized repository for this task and that the repository might be biased.
+
+
+
+## Experiment:
