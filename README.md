@@ -239,7 +239,8 @@ We planned to take multiple kinds of languages but due to unavailability of many
 
 For these languages, we will add some specific terms related to these languages which will increase the count of commits in FC Category. Please note that by visual inspection, it was seen that these newly added commits should already be added beforehand with the previous terms. Two category of terms were added for Zsh, Power Shell and Julia. These were:
 
-a.) Language Specific Terms: These terms are exclusive to the specific languages/language types as these are supposed to add FC Commits for the specific language/language type. For Zsh, these terms were **Typo** and **Missing**. For Power Shell, these were **Cat** and **Typo**. For Julia, the term used was **Avoid**.
-b.) General Terms: These terms are supposed to add desired commits into FC's for all type of languages(Language Types mentioned above). Some general terms used were **Tweak**, **Correct**, **Error** and **Fail**. 
+**a.) Language Specific Terms:** These terms are exclusive to the specific languages/language types as these are supposed to add FC Commits for the specific language/language type. For Zsh, these terms were **Typo** and **Missing**. For Power Shell, these were **Cat** and **Typo**. For Julia, the term used was **Avoid**.
+
+**b.) General Terms:** These terms are supposed to add desired commits into FC's for all type of languages(Language Types mentioned above). Some general terms used were **Tweak**, **Correct**, **Error** and **Fail**. 
 
 Please note that the categorization of FC's using Language Specific Terms wasn't exclusive to their respective Language Repository only. To explain, all terms were used for all languages for categorization. Ideally, there should be specific categorization for some commits respective to some languages but, as per the takeaways from Consulation Session and Assignment requirements, this assignment didn't require a full-fledged resolution of a validity threat. Due to this reason, the project was scaled down. 
