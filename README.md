@@ -129,7 +129,7 @@ Screenshots of Results are as follows:
 
 ## Data Flow
 
-The scraped data flows as per the below methodology
+The scraped data flows as per the below methodology. Sample data flow of Guava Repository is depicted below. 
 
 <img src="Data/DataFlow.png"> 
 
@@ -165,31 +165,31 @@ The final results are printed as part of the console
 
 **All Emotions - Rank Sum - Pvalue:**
 
-<img src="Data/All_Emotions_RankSum_pvalue.png">
+<img src="Data/All_Emotions_pvalues.png">
 
 **All Emotions Pvalue - Bonferroni Correction:**
 
-<img src="Data/All_Emotions_Bonferroni.png">
+<img src="Data/All_Emotions_Bonferroni_Corrections.png">
 
 **Polar Emotions - Rank Sum - Pvalue:**
 
-<img src="Data/Polar_Emotions_RankSum_pvalue.png">
+<img src="Data/Polar_Emotions_pvalues.png">
 
 **Polar Emotions Pvalue - Bonferroni Correction:**
 
-<img src="Data/Polar_Emotions_Bonferroni.png">
+<img src="Data/Polar_Emotions_Bonferroni_Corrections.png">
 
 **Mean Values:**
 
-<img src="Data/Mean_Values.png">
+<img src="Data/Emotions_Mean_Values.png">
 
 **Chi-Squared Statistics - Negative vs Positive:**
 
-<img src="Data/Chi_Square_Negative_Positive.png">
+<img src="Data/Chi_Square_Negative_Positive_Values.png">
 
 **Chi-Squared Statistics - Emotion vs Neutral:**
 
-<img src="Data/Chi_Square_Emotion_Neutral.png">
+<img src="Data/Chi_Square_Emotion_Neutral_Values.png">
 
 
 ## Delta: 
@@ -265,7 +265,6 @@ Collectively, both of these add up to categorize more desired commits into FC Ca
 
 ### Results:
 
-
 <img src="Data/Result_1.PNG">
 
 <img src="Data/Result_2.PNG">
@@ -276,38 +275,24 @@ Results are also present in Data/Results.xlsx. Conclusions are divided into two 
 
 1.) FIF are those commits which were supposed to fix a bug but instead added another. These show highly negative mean value in both All and Polar Emotions which show that Sentiment Analysis are negative while committing commits which lead to a bug. In comparison, when we used only Basic Terms(Fix, Bug, Patch), FIF show less negative mean, but when we use specialized terms, overall we get more negative FIF's which prove that new terms categorized more negative emotion commits which weren't being categorized earlier. 		
 
-
-
-2.) Comparatively, we get more positive pFIC in both All and Polar Emotions in New Terms case. This is in accordance with our hypothesis of using specialized terms for categorization of commits as pFIC should have more positive emotion commits. 																					
-
-
+2.) Comparatively, we get more positive pFIC in both All and Polar Emotions in New Terms case. This is in accordance with our hypothesis of using specialized terms for categorization of commits as pFIC should have more positive emotion commits. 																				
 
 3.) Similar to FIF, FC's are more negative in the new terms case indicating that the new terms added more commits which have negative emotion in their background. This is a positive impact we can see in categorization procedure due to adding specializing terms													
 
-
-
-
 4.) Regular Commits should have mean of emotions close to 0 as much as possible as theoretically it should have neutral emotions which our VADER sentiment analysis gives score of 0. Comparatively, Regular Commits in comparison with FIC and pFIC are close to 0 then when we used Basic Terms									
 
-
-
 5.) In comparison, FC's categorized from new terms are more negative(By 3%) proving some impact of new terms into adding negative emotion commits in FC Category. In terms of Emotion and Neutral percentages, more emotion commits have been added by new terms with 20% increase.											
-
-
 
 6.) Negative emotion commits have reduced considerably(by 7%). The reduction of this % can be accounted with the addition to FC's negative commits probably			
 
 																	
 7.) Positive commits proprotion have increased in pFIC's which indicate affirmation to our hypothesis. Emotional commits have also reduced confirming to our hypothesis		
 
-
-
 8.) FIF negative emotion proportion increased a good amount by 4%. Emotional commits increased significantly in FIF. Both of these facts reaffirm our hypothesis as FIF should be more negative and emotional.																				
 																					
 #### Negative Conclusions: 
 
 1.) When we get Regular Commit sin comparison with FC and FIF, mean of new terms Regular Commits is far from 0  when compared to mean in case of Basic Terms. This is the only comparison where our New Terms do not perform in according with our hypothesis.														
-
 
 2.) In FIC's, contrary to our hypothesis negative polarity commits have reduced drastically. Also, emotion commits are reduced too.																					
 
