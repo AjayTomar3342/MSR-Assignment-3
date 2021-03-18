@@ -265,13 +265,25 @@ Collectively, both of these add up to categorize more desired commits into FC Ca
 
 ### Results:
 
+#### Intermediate Results:
+
+<img src="Data/Intermediate_Results.PNG">
+
+As described in the above image, at least 20% increase of commits in FC Commits have been observed.
+Zsh and Power Shell had an average increase of 50% once specialized categorization terms have been added to initial General Terms. 
+
+In case of Julia, not much increase has been observed as the original categorizing terms "Bug", "Fix" and "Patch" already were covering most of the FC Commits in the repository. So, perhaps the origial categorizing terms are good enough for Object Oriented Languages. 
+
+
+#### Final Results:
+
 <img src="Data/Result_1.PNG">
 
 <img src="Data/Result_2.PNG">
 
 Results are also present in Data/Results.xlsx. Conclusions are divided into two categories below:
 
-#### Positive Conclusions:
+##### Positive Conclusions:
 
 1.) FIF are those commits which were supposed to fix a bug but instead added another. These show highly negative mean value in both All and Polar Emotions which show that Sentiment Analysis are negative while committing commits which lead to a bug. In comparison, when we used only Basic Terms(Fix, Bug, Patch), FIF show less negative mean, but when we use specialized terms, overall we get more negative FIF's which prove that new terms categorized more negative emotion commits which weren't being categorized earlier. 		
 
@@ -290,7 +302,7 @@ Results are also present in Data/Results.xlsx. Conclusions are divided into two 
 
 8.) FIF negative emotion proportion increased a good amount by 4%. Emotional commits increased significantly in FIF. Both of these facts reaffirm our hypothesis as FIF should be more negative and emotional.																				
 																					
-#### Negative Conclusions: 
+##### Negative Conclusions: 
 
 1.) When we get Regular Commit sin comparison with FC and FIF, mean of new terms Regular Commits is far from 0  when compared to mean in case of Basic Terms. This is the only comparison where our New Terms do not perform in according with our hypothesis.														
 
