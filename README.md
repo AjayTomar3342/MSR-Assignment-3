@@ -235,7 +235,7 @@ To remove the external validity threat above, we found multiple types of program
 
 Some examples are Array Languages, Assembly Languages, Command Line Interface Languages, Data-Flow Languages, Data-Oriented Languages, Functional Languages, Imperative Languages, Object-Oriented Languages, Procedural Languages. 
 
-We planned to take multiple kinds of languages but due to unavailability of many types of languages as GitHub Repository and if available, low amount of commit messages, we decided to take only One type of Language in our consideration. We took two languages(Zsh and Power Shell) from Command Line Languages Type, where the second one would be used to double check our results if we get results in positive direction. Additionally the initial language repository Julia(Used in MSR-Assignment-2), was also considered into checking overall impact of the new specialized terms we add in the expertment. 
+We planned to take multiple kinds of languages but due to unavailability of many types of languages as they are GitHub Repositories and if available, low amount of commit messages, we decided to consider only One type of Language. We took two languages **(Zsh and Power Shell)** from Command Line Languages Type, where the second one would be used to double check our results if we get results in positive direction. Additionally the initial language repository Julia (Used in MSR-Assignment-2), was also considered into checking overall impact of the new specialized terms we add in the expertment. 
 
 For these languages, we will add some specific terms related to these languages which will increase the count of commits in FC Category. Please note that by visual inspection, it was seen that these newly added commits should already be added beforehand with the previous terms. Two category of terms were added for Zsh, Power Shell and Julia. These were:
 
@@ -272,7 +272,7 @@ Collectively, both of these add up to categorize more desired commits into FC Ca
 As described in the above image, at least 20% increase of commits in FC Commits have been observed.
 Zsh and Power Shell had an average increase of 50% once specialized categorization terms have been added to initial General Terms. 
 
-In case of Julia, not much increase has been observed as the original categorizing terms "Bug", "Fix" and "Patch" already were covering most of the FC Commits in the repository. So, perhaps the origial categorizing terms are good enough for Object Oriented Languages. 
+In case of Julia, not much increase has been observed as the original categorizing terms "Bug", "Fix" and "Patch" already were covering most of the FC Commits in the repository. So, perhaps the original categorizing terms are good enough for Object Oriented Languages. 
 
 
 #### Final Results:
@@ -296,19 +296,18 @@ Results are also present in Data/Results.xlsx. Conclusions are divided into two 
 5.) In comparison, FC's categorized from new terms are more negative(By 3%) proving some impact of new terms into adding negative emotion commits in FC Category. In terms of Emotion and Neutral percentages, more emotion commits have been added by new terms with 20% increase.											
 
 6.) Negative emotion commits have reduced considerably(by 7%). The reduction of this % can be accounted with the addition to FC's negative commits probably			
-
-																	
+																
 7.) Positive commits proprotion have increased in pFIC's which indicate affirmation to our hypothesis. Emotional commits have also reduced confirming to our hypothesis		
 
 8.) FIF negative emotion proportion increased a good amount by 4%. Emotional commits increased significantly in FIF. Both of these facts reaffirm our hypothesis as FIF should be more negative and emotional.																				
 																					
 ##### Negative Conclusions: 
 
-1.) When we get Regular Commit sin comparison with FC and FIF, mean of new terms Regular Commits is far from 0  when compared to mean in case of Basic Terms. This is the only comparison where our New Terms do not perform in according with our hypothesis.														
+1.) When we get Regular Commits in comparison with FC and FIF, mean of new terms Regular Commits is far from 0 when compared to mean in case of Basic Terms. This is the only comparison where our New Terms do not perform in according with our hypothesis.														
 
 2.) In FIC's, contrary to our hypothesis negative polarity commits have reduced drastically. Also, emotion commits are reduced too.																					
 
 ### Process:
 
-There is an additional step to get results for comparison after adding new terms to the scenario. First run the program as it is as mentioned in the Baseline/Process above. Then delete all the Scraped Repositories data and **uncomment the terms present from line 90-92/95-99(In case of using Alternate method for executing the project)*** and add them into if-else clause. During first run, results without new terms will appear in console, during second run(after adding new terms), improved results will appear as mentioned above. 
+There is an additional step to get results for comparison after adding new terms to the scenario. First run the program as it is as mentioned in the Baseline/Process above. Then delete all the Scraped Repositories data and **uncomment the terms present from line 95-98(In case of using Alternate method for executing the project)*** and add them into if-else clause. During first run, results without new terms will appear in console, during second run(after adding new terms), improved results will appear as mentioned above. 
 
