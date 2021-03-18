@@ -313,5 +313,5 @@ Results are also present in Data/Results.xlsx. Conclusions are divided into two 
 
 ### Process:
 
-There is an additional step to get results for comparison after adding new terms to the scenario. First run the program as it is as mentioned in the Baseline/Process above. Then delete all the Scraped Repositories data and **uncomment the terms present from line 90-92*** and add them into if-else clause. During first run, results without new terms will appear in console, during second run(after adding new terms), improved results will appear as mentioned above. 
+There is an additional step to get results for comparison after adding new terms to the scenario. First run the program as it is as mentioned in the Baseline/Process above. Then delete all the Scraped Repositories data and **uncomment the terms present from line 90-92/95-99(In case of using Alternate method for executing the project)*** and add them into if-else clause. During first run, results without new terms will appear in console, during second run(after adding new terms), improved results will appear as mentioned above. 
 
