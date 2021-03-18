@@ -119,12 +119,12 @@ This is a quick process to start the testing of GitHub project taken from the Of
 
 ## Results:
 
-Results are stored in an excel file inside Doc Folder named Results.xlsx. The information stored was taken from program console and was taken after the code was run on 30/1/2021 10:08:00 PM IST.
+Results are stored in an excel file inside Doc Folder named Results.xlsx. The information stored was taken from program console and was taken after the code was run on 10/3/2021.
 
 Screenshots of Results are as follows:
 
-<img src="Data/Result_2.png"> 
-<img src="Data/Result_1.png"> 
+<img src="Data/Result_2.PNG"> 
+<img src="Data/Result_1.PNG"> 
 
 
 ## Data Flow
